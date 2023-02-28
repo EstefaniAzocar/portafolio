@@ -1,0 +1,24 @@
+:root{
+  --colorIcon:#0DCEF9;
+  --colorText: white;
+  --primer_color: #124f88;
+  --segundo_color: #f7c331;
+  --texto_color_inverso: white;
+  --color: black;
+  --nav_sombra_color: #e5e5e5;
+  --menu_movil_color: #a6aaaf;
+  --color_header: #121315;
+
+}
+
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0%;
+  background-color: var(--color);
+}
