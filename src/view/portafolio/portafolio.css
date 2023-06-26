@@ -1,4 +1,68 @@
 .sectionPortafolio{
-    color: blue;
-    background-color: aqua;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: -1;
+   
+}
+
+
+.textoPortafolio{
+    width: 95%;
+    height: 60%;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 30px;
+    z-index: 2;
+    margin-top: 70px;
+    margin-top: 5px;
+    max-height: 680px;
+    overflow-y: scroll;
+    
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+  }
+  
+  ::-webkit-scrollbar:vertical {
+    width: 3px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+  }
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 60px; */
+    padding: 20px;
+    font-size: 2.5rem;
+    /* color: var(--colorIcon); */
+    color: rgba(0, 212, 255, 0.9);
+
+}
+.title:hover{
+    transform: scale(1.005);
+    color: rgba(255, 255, 255, 0.9);
+    transition: all .3s ease;  
+}
+
+
+
+@media screen and (min-width: 950px) {
+    .sectionPortafolio{
+        padding-left: 13rem;
+    }
+    .title{
+        justify-content: left;
+    }
 }

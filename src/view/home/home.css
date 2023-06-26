@@ -5,6 +5,8 @@
     padding-left: 1.5rem;
     flex-direction: column;
     gap: 30px;
+    z-index: -1;
+
 }
 .textZone h1{
     font-size: 3.2rem;
@@ -15,25 +17,27 @@
 
 .textZone .textoGray{
     margin-top: 20px;
-    color: var(--menu_movil_color) ;
+    color: #e5e5e5 ;
     letter-spacing: 3px;
     font-size: 14px;
     position: relative;
+    z-index: -1;
 }
 
 .cv{
     text-decoration: none;
     width: 100%;
     max-width: 200px;
-    height: 40px;
+    height: 60px;
     display: block;
-    line-height: 40px;
+    line-height: 60px;
     letter-spacing: 3px;
     position: relative;
     text-align: center;
     /* color: #08fdd8; */
     color: var(--colorIcon);
     margin-top: 10px;
+    z-index: -1;
 }
 
 .cv div{
@@ -53,7 +57,7 @@
     transition: all .3s ease-in-out;
     /* background-color: #08fdd8; */
     background: var(--colorIcon);
-    transform: skewX(-19deg);
+    transform: skewX(-10deg);
 }
 
 .cv:hover span.bg{
@@ -83,7 +87,7 @@
 }
 
 .box{
-    background-color: rgba(20, 20, 20, 0.5);
+    background-color: #2d2d2e;
     position: relative;
     width: 220px;
     height: 260px;
@@ -94,7 +98,9 @@
     margin-top: 80px;
     overflow: hidden;
     border-radius: 20px;
+    z-index: -1;
 }
+
 
 .box::before{
     content: '';
@@ -109,7 +115,7 @@
     content: '';
     position: absolute;
     inset: 4px;
-    background-color: black;
+    background-color: #1d1d1d;
     border-radius: 16px;
 }
 
@@ -131,6 +137,8 @@
     min-width: 100px;
     z-index: 1;
     padding-top: 10px;
+    background-color: #1d1d1d;
+    opacity: 1;
 
 }
 

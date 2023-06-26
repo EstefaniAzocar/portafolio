@@ -6,7 +6,7 @@ import './home.css';
 const Home = () =>{
   return (
     <>
-        <Header/>
+        {/* <Header/> */}
         <div id="sectionHome" className="sectionHome">
             <div className="box">
             <img className="logoImg" src={logo} alt='logo' />

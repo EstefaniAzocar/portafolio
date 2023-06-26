@@ -1,0 +1,15 @@
+.sectionContactame{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-left: 1.5rem;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.textoContactame h1{
+    font-size: 3.2rem;
+    line-height: 50px;
+    letter-spacing: -3px;
+    color: var(--colorText);
+}

@@ -1,19 +1,22 @@
-import React from "react";
+import React, {useState} from "react";
 import NavBar from "../../components/navBar/navBar";
 
 import './header.css'
 
 const Header = () => {
- const barraNav=()=>{
-    
- }
+    const [isOpen, setIsOpen] = useState(false)
+
     
     return (
         <>
         <div className="header" >
-                <div className="btns-container" onClick={barraNav}>
-                    <span className="fas fa-solid fa-bars"></span>
-                    <span className="fas fa-solid fa-xmark"></span>
+                <div className={`btns-container ${isOpen && "open"}`} onClick={ () => setIsOpen(!isOpen)}>
+                {
+                    isOpen ?  <span className=" nav-btn fas nav-close-btnfas fa-solid fa-xmark"></span> : 
+                    <span className=" nav-btn fas fa-solid fa-bars" ></span>
+                }
+                    {/* <span className=" nav-btn fas fa-solid fa-bars" ></span> */}
+                    {/* <span className=" nav-btn nav-close-btnfas fa-solid fa-xmark"></span> */}
                 </div>
                 <div className="modo">
                     <span className="noche fa-solid fa-sun"></span>
@@ -22,9 +25,13 @@ const Header = () => {
             
         </div>
 
-        <div className="container">
+        <div className={`container ${isOpen && "open"}`}>
             <NavBar/>
         </div>
+
+        {/* <div>
+          <Outlet />
+        </div> */}
         </>
     )
 }

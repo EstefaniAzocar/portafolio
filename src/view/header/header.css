@@ -1,4 +1,5 @@
 .header{
+    position: fixed;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -6,7 +7,8 @@
     width: 100%;
     height: 10vh;
     margin: auto;
-    z-index: 2;
+    z-index: 3;
+    /* background-color: #1d1d1d; */
 }
 
 .modo{
@@ -26,11 +28,13 @@
         color: #08fdd8;
 
 }
+/* .nav-close-btnfas{
+    display: none;
+} */
 .header .fas {
     font-size: 2rem;
     font-weight: bold;
     padding: 20px;
-    background-color: black;
     color: white;
     cursor: pointer;
 }
@@ -41,6 +45,22 @@
     display: none;
 }
 
+.container{
+    transform: translateX(-100%);
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0s;
+	gap: 1.2rem;
+}
+
+.container.open{
+   transform: translateX(0) !important;
+   transition: 1s;
+    
+}
+
+
 @media screen and (min-width: 950px) {
     header{
         justify-content: flex-end;
@@ -48,5 +68,11 @@
     }
     .btns-container{
         display: none;
+    }
+
+    .container{
+        transform: translateX(0);
+        transition: 0s;
+    
     }
 }

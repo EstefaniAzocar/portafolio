@@ -1,5 +1,6 @@
 
 import React from "react";
+// import { Link } from 'react-router-dom';
 import logo2 from '../../img/logo2.png'
 import "./navBar.css"
 
@@ -17,12 +18,21 @@ const NavBar = () => {
                 </div>
 
                 <nav className="navLink">
-                        {/* <span className="fa-solid fa-house"></span> */}
-                        <a href="sectionHome">Inicio</a>
+                        {/*  <span className="fa-solid fa-house"></span> */}
+                        <a href="/home">Inicio</a>
                         {/* <span className="fa-solid fa-briefcase"></span> */}
-                        <a href="sectionPortafolio">Portafolio</a>
+                        <a href="/portafolio">Portafolio</a>
                         {/* <span className="fa-solid fa-address-card"></span> */}
-                        <a href="#">Contactame</a>
+                        <a href="/contactame">Contactame</a>
+
+
+                    {/* <span className="fa-solid fa-house"></span> */}
+                    {/* <Link to='/home'>Inicio</Link> */}
+                    {/* <span className="fa-solid fa-briefcase"></span> */}
+                     {/* <Link to='/portafolio'>Portafolio</Link> */}
+                     {/* <span className="fa-solid fa-address-card"></span> */}
+                     {/* <Link to='/contacteme'>Contactame</Link> */}
+                
                 </nav>
 
                 <div className="redes">
