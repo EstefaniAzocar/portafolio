@@ -4,8 +4,9 @@
     align-items: center;
     padding-left: 1.5rem;
     flex-direction: column;
+    padding-top: 50px;
     gap: 30px;
-    z-index: -1;
+ 
 
 }
 .textZone h1{
@@ -24,73 +25,68 @@
     z-index: -1;
 }
 
-.cv{
+/* contact me button */
+.contact-button{
     text-decoration: none;
     width: 100%;
     max-width: 200px;
-    height: 60px;
+    height: 40px;
     display: block;
-    line-height: 60px;
+    line-height: 40px;
     letter-spacing: 3px;
     position: relative;
     text-align: center;
-    /* color: #08fdd8; */
-    color: var(--colorIcon);
-    margin-top: 10px;
-    z-index: -1;
+    color: #00ccff;
+    margin-top: 20px;
 }
-
-.cv div{
+.contact-button div{
     position: relative;
     width: 100%;
     height: 100%;
     overflow: hidden;
     transition:  all .3s ease-in-out;
+    z-index: -1;
 }
-
-.cv span.bg{
+.contact-button span.bg{
     position: absolute;
     width: 0%;
     height: 100%;
     left: -5px;
     top: 0;
     transition: all .3s ease-in-out;
-    /* background-color: #08fdd8; */
-    background: var(--colorIcon);
-    transform: skewX(-10deg);
+    background-color: #00ccff;
+    transform: skewX(-19deg);
+    
 }
-
-.cv:hover span.bg{
+.contact-button:hover span.bg{
     width: 110%;
 }
-
-.cv span.base{
+.contact-button span.base{
     width: 100%;
     height: 100%;
     position: absolute;
     left: 0;
-    border: 1px solid var(--colorIcon);
+    border: 1px solid #00ccff;
     box-sizing: border-box;
+    
 }
-
-.cv span.textCv{
-    text-align: center;
+.contact-button span.text{
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
+    
 }
-
-.cv:hover span.textCv{
+.contact-button:hover span.text{
     color: #1d1d1d;
 }
 
 .box{
     background-color: #2d2d2e;
     position: relative;
-    width: 220px;
-    height: 260px;
+    width: 230px;
+    height: 270px;
     min-width: 100px;
     display: flex;
     justify-content: center;
@@ -99,6 +95,12 @@
     overflow: hidden;
     border-radius: 20px;
     z-index: -1;
+}
+
+.box .logoImg{
+    width: 220px;
+    height: 260px;
+    border-radius: 20px;
 }
 
 

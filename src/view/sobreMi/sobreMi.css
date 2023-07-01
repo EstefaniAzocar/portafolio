@@ -1,0 +1,75 @@
+.sectionSobreMi{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding-left: 1.5rem;
+    flex-direction: column;
+    padding-top: 50px;
+    gap: 30px;
+    z-index: -1;
+
+}
+
+.titleSobreMi{
+    display: flex;
+justify-content: center;
+/* margin-top: 60px; */
+padding: 20px;
+font-size: 2.5rem;
+/* color: var(--colorIcon); */
+color: rgba(0, 212, 255, 0.9);
+
+}
+.titleSobreMi:hover{
+transform: scale(1.005);
+color: rgba(255, 255, 255, 0.9);
+transition: all .3s ease;  
+}
+
+.descripcion{
+    width: 95%;
+    height: 60%;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+
+.description p{
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    margin-left: 30px;
+    flex-wrap: wrap;
+    color: #ffff;
+    width: 95%;
+    font-size: 20px;
+    margin: 15px;
+}
+
+@media screen and (min-width: 950px) {
+    .sectionSobreMi{
+        width: 100%;
+        padding-left: 13.5rem;
+        flex-direction: row;
+        justify-content:space-evenly;
+    }
+
+    .description{
+        width: 50%;
+    }
+
+    .description p{
+        font-size: 18px;
+    }
+
+    .titleSobreMi{
+        justify-content: left;
+    }
+
+    .tecnologias{
+        width: 50%;
+
+
+    }
+
+}

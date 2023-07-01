@@ -1,6 +1,5 @@
 import React from "react";
-import Header from "../header/header";
-import logo from "../../img/logo.png"
+import logo from "../../img/EstefaniAzocar.png"
 import './home.css';
 
 const Home = () =>{
@@ -17,11 +16,11 @@ const Home = () =>{
                 <p className="textoGray">Front End Developer</p>
                 <br/>
                 
-                <a href="https://drive.google.com/file/d/1EIt6iA6qMH7SpofEojUTJxkMQajG8AzI/view?usp=share_link" className="cv">
+                <a href="https://drive.google.com/file/d/1OO52x0AkG2f-Cf6BTQ6i1MN6_9MEBCvK/view?usp=sharing" target="blank" class="contact-button">
                     <div>
-                    <span className="bg"></span>
-                    <span className="base"></span>
-                    <span className="textCv"> Descargar cv</span>
+                        <span class="bg"></span>
+                        <span class="base"></span>
+                        <span class="text">Descargar CV</span>
                     </div>
                 </a>
             </div>
