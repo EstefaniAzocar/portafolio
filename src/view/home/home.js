@@ -1,5 +1,5 @@
 import React from "react";
-import estefaniazocar from "../../img/estefaniazocar.pn"
+import estefaniazocar from "../../img/estefaniazocar.png"
 import './home.css';
 
 const Home = () =>{
