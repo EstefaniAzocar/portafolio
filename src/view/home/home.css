@@ -2,9 +2,9 @@
     min-height: 100vh;
     display: flex;
     align-items: center;
-    padding-left: 1.5rem;
+    /* padding-left: 1.5rem; */
     flex-direction: column;
-    padding-top: 50px;
+    /* padding-top: 50px; */
     gap: 30px;
  
 
@@ -14,6 +14,9 @@
     line-height: 50px;
     letter-spacing: -3px;
     color: var(--colorText);
+}
+.textZone span{
+    color: #00ccff;
 }
 
 .textZone .textoGray{
@@ -36,7 +39,7 @@
     letter-spacing: 3px;
     position: relative;
     text-align: center;
-    color: #00ccff;
+    color: #0DCEF9;
     margin-top: 20px;
 }
 .contact-button div{
@@ -54,7 +57,7 @@
     left: -5px;
     top: 0;
     transition: all .3s ease-in-out;
-    background-color: #00ccff;
+    background-color: #0DCEF9;
     transform: skewX(-19deg);
     
 }
@@ -66,7 +69,7 @@
     height: 100%;
     position: absolute;
     left: 0;
-    border: 1px solid #00ccff;
+    border: 1px solid #0DCEF9;
     box-sizing: border-box;
     
 }
@@ -109,7 +112,7 @@
     position: absolute;
     width: 150px;
     height: 140%;
-    background: linear-gradient(#00ccff,#0ff9d6);
+    background: linear-gradient(#00ccff,#0DCEF9);
     animation: animate 4s linear infinite;
 }
 
@@ -147,7 +150,7 @@
 @media screen and (min-width: 950px) {
     /* home section */
     #sectionHome{
-        padding-left: 13rem;
+        padding-left: 11rem;
         flex-direction: row-reverse;
         justify-content: space-evenly;
     }

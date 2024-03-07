@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../img/EstefaniAzocar.png"
+import logo from "../../img/estefaniazocar.png"
 import './home.css';
 
 const Home = () =>{
@@ -11,12 +11,12 @@ const Home = () =>{
             <img className="logoImg" src={logo} alt='logo' />
             </div>
             <div className="textZone" >
-                <h1>Hola, <br/> Soy Estefani, <br/> web developer
+                <h1>Hola, <br/><span> Soy Estefani, </span><br/> web developer
                 </h1>
                 <p className="textoGray">Front End Developer</p>
                 <br/>
-                
-                <a href="https://drive.google.com/file/d/1OO52x0AkG2f-Cf6BTQ6i1MN6_9MEBCvK/view?usp=sharing" target="blank" class="contact-button">
+           
+            <a href="https://drive.google.com/file/d/1rQ_DSVHpUVXS3ukhXKfQ603UBfnSDBt2/view?usp=sharing" target="_blank"  className="contact-button">
                     <div>
                         <span class="bg"></span>
                         <span class="base"></span>

@@ -1,6 +1,7 @@
 
 import React from "react";
-// import { proyectosData } from "./proyectosData";
+// eslint-disable-next-line no-unused-vars
+import { proyectosData } from "./proyectosData";
 
 import './proyectosCart.css';
 

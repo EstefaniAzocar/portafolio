@@ -1,6 +1,6 @@
 import React from "react";
-import Proyectos from "../../proyectos/proyectosCart";
-import { proyectosData } from "../../proyectos/proyectosData";
+import Proyectos from "../../components/proyectos/proyectosCart";
+import { proyectosData } from "../../components/proyectos/proyectosData";
 
 import './portafolio.css';
 
@@ -8,7 +8,7 @@ const Portafolio = () =>{
   return (
     <>
         <div id="portafolio" className="sectionPortafolio">
-        <h1  className="title">Proyectos</h1>
+        <h1 className="title">Proyectos</h1>
         <div className="textoPortafolio">
           {proyectosData.map(
           (proyectos)=> (
@@ -18,6 +18,7 @@ const Portafolio = () =>{
               name={proyectos.name}
               descripcion={proyectos.descripcion}
               github={proyectos.github}
+              // demo={proyectos.demo}
             />
           )
           )}
