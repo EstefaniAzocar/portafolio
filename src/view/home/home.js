@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../img/estefaniazocar.png"
+import estefaniazocar from "../../img/estefaniazocar.pn"
 import './home.css';
 
 const Home = () =>{
@@ -8,7 +8,7 @@ const Home = () =>{
         {/* <Header/> */}
         <div id="sectionHome" className="sectionHome">
             <div className="box">
-            <img className="logoImg" src={logo} alt='logo' />
+            <img className="logoImg" src={estefaniazocar} alt="Estefani" />
             </div>
             <div className="textZone" >
                 <h1>Hola, <br/><span> Soy Estefani, </span><br/> web developer
