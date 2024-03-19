@@ -34,27 +34,27 @@ const SobreMi = () =>{
               <div class="slider">
                 <div class="slide-track">
                   <div class="slide">
-                  <img src={html} alt="Html" />
-                  <img src={css} alt="Css" />
-                  <img src={sass} alt="Sass" />
-                  <img src={js} alt="JavaScript" />
-                  <img src={react} alt="React" />
-                  <img src={nodeJS} alt="Node" />
-                  <img src={java} alt="Java" />
-                  <img src={git} alt="Git" />
-                  <img src={gitHub} alt="Github" />
-                  <img src={visualStudeCode} alt="Visual code" />
+                  <div><img src={html} alt="Html" /></div>
+                  <div><img src={css} alt="Css" /></div>
+                  <div><img src={sass} alt="Sass" /></div>
+                  <div><img src={js} alt="JavaScript" /></div>
+                  <div><img src={react} alt="React" /></div>
+                  <div><img src={nodeJS} alt="Node" /></div>
+                  <div><img src={java} alt="Java" /></div>
+                  <div><img src={git} alt="Git" /></div>
+                  <div><img src={gitHub} alt="Github" /></div>
+                  <div><img src={visualStudeCode} alt="Visual code" /></div>
 
-                  <img src={html} alt="Html" />
-                  <img src={css} alt="css" />
-                  <img src={sass} alt="Sass" />
-                  <img src={js} alt="JavaScript" />
-                  <img src={react} alt="React" />
-                  <img src={nodeJS} alt="Node" />
-                  <img src={java} alt="Java" />
-                  <img src={git} alt="Git" />
-                  <img src={gitHub} alt="Github" />
-                  <img src={visualStudeCode} alt="Visual code" />
+                  <div><img src={html} alt="Html" /></div>
+                  <div><img src={css} alt="css" /></div>
+                  <div><img src={sass} alt="Sass" /></div>
+                  <div><img src={js} alt="JavaScript" /></div>
+                  <div><img src={react} alt="React" /></div>
+                  <div><img src={nodeJS} alt="Node" /></div>
+                  <div><img src={java} alt="Java" /></div>
+                  <div><img src={git} alt="Git" /></div>
+                  <div><img src={gitHub} alt="Github" /></div>
+                  <div><img src={visualStudeCode} alt="Visual code" /></div>
                 </div>
             
         </div>

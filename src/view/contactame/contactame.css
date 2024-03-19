@@ -39,11 +39,11 @@
     color: rgba(0, 212, 255, 0.9);
 
 }
-.title:hover{
+/* .title:hover{
     transform: scale(1.005);
     color: rgba(255, 255, 255, 0.9);
     transition: all .3s ease;  
-}
+} */
   
   .contacto {
     margin-top: 40px;
@@ -102,13 +102,21 @@
   }
   
   /* Estilos responsivos */
-  @media only screen and (max-width: 600px) {
-    .formulario {
-      max-width: 100%;
+  @media screen and (min-width: 950px) {
+    .sectionContactame{
+      width: 100%;
+        padding-left: 12rem;
+        flex-direction: column;
+        justify-content:space-between;
+        min-height: 100vh;
+        display: flex;
+        margin: 0 auto;
+        z-index: -1;
     }
-  
-    .campo__field {
-      width: calc(100% - 20px);
+    .textoContactame{
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
-  }
+}
   
