@@ -1,54 +1,55 @@
-import React, { useState, useRef, useEffect } from "react";
-import "./carousel.css";
+import React, { useRef, useEffect } from 'react';
 
-const MyCarousel = ({ children }) => {
+const Carousel = ({children}) => {
   const gap = 16;
-  const carouselRef = useRef(null);
-  const contentRef = useRef(null);
-  const prevRef = useRef(null);
-  const nextRef = useRef(null);
-  const [width, setWidth] = useState(0);
+  const carousel = useRef(null);
+  const next = useRef(null);
+  const prev = useRef(null);
+
+  const checkButtons = (width) => {
+    const { scrollLeft, scrollWidth, offsetWidth } = carousel.current;
+    prev.current.style.display = scrollLeft ? "flex" : "none";
+    next.current.style.display = scrollLeft < scrollWidth - offsetWidth ? "flex" : "none";
+  };
 
   useEffect(() => {
-    setWidth(carouselRef.current.offsetWidth);
-    const handleResize = () => setWidth(carouselRef.current.offsetWidth);
-    window.addEventListener("resize", handleResize);
+    const handleResize = () => {
+      checkButtons(carousel.current.offsetWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    // Call it initially to set the correct button states
+    handleResize();
+
+    // Cleanup
     return () => {
-      window.removeEventListener("resize", handleResize);
+      window.removeEventListener('resize', handleResize);
     };
   }, []);
 
-  const handleNextClick = () => {
-    carouselRef.current.scrollBy({ left: width + gap, behavior: "smooth" });
-    if (carouselRef.current.scrollWidth - carouselRef.current.scrollLeft <= width + gap) {
-      nextRef.current.style.display = "none";
-    }
-    prevRef.current.style.display = "flex";
+  const handleNext = () => {
+    const width = carousel.current.offsetWidth;
+    carousel.current.scrollBy(width + gap, 0);
+    checkButtons(width);
   };
-  
-  const handlePrevClick = () => {
-    carouselRef.current.scrollBy({ left: -(width + gap), behavior: "smooth" });
-    if (carouselRef.current.scrollLeft <= width + gap) {
-      prevRef.current.style.display = "none";
-    }
-    nextRef.current.style.display = "flex";
+
+  const handlePrev = () => {
+    const width = carousel.current.offsetWidth;
+    carousel.current.scrollBy(-(width + gap), 0);
+    checkButtons(width);
   };
-  
+
   return (
-    <div className="Wrapper">
-      <div className="Carousel" ref={carouselRef}>
-        <div className="Content" ref={contentRef}>
-          {children}
-        </div>
+    <div>
+      <div id="carousel" ref={carousel} style={{ overflow: 'auto', whiteSpace: 'nowrap' }}>
+        {/* Aquí van los elementos de tu carrusel */}
+        {children}
       </div>
-      <button className="Button prev" onClick={handlePrevClick} ref={prevRef}>
-        ←
-      </button>
-      <button className="Button next" onClick={handleNextClick} ref={nextRef}>
-        →
-      </button>
+      <button ref={next} onClick={handleNext} style={{ display: 'none' }}>Next</button>
+      <button ref={prev} onClick={handlePrev} style={{ display: 'none' }}>Prev</button>
     </div>
   );
 };
 
-export default MyCarousel;
+export default Carousel;

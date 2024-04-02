@@ -2,8 +2,8 @@ export const proyectosData = [
     {
         id: 1,
         img: "https://i.ibb.co/dkkjHbX/buscar-Anime.jpg",
-        name: "Buscador anime",
-        descripcion: "React, axios",
+        name: "Buscar anime",
+        descripcion: "React, Node, axios",
         github: "https://github.com/EstefaniAzocar/aplicativoAnime",
         demo: "https://aplicativo-anime.vercel.app/",
 
@@ -11,7 +11,7 @@ export const proyectosData = [
     {
         id: 2,
         img: "https://jumbocolombiaio.vtexassets.com/arquivos/ids/185701/7702084137520-1.jpg?v=637813979850670000",
-        name: "Burger-Queen",
+        name: "Burger Queen",
         descripcion: "React, Scss",
         github: "https://github.com/EstefaniAzocar/BOG005-burger-queen-api-client",
         demo: "",

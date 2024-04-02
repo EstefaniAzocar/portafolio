@@ -1,61 +1,56 @@
-/* Wrapper Styles */
-.Wrapper {
+#wrapper {
   width: 100%;
-  max-width: 780px;
+  max-width: 964px;
   position: relative;
-  margin: auto; /* Centra el carrusel en la pantalla */
-  /* overflow: hidden;   Oculta contenido adicional si es necesario */
- 
 }
 
-/* Carousel Styles */
-.Carousel {
-  display: flex;
-  overflow-x: auto; /* Permite desplazamiento horizontal */
+#carousel {
+  overflow: auto;
   scroll-behavior: smooth;
   scrollbar-width: none;
 }
 
-.Carousel::-webkit-scrollbar {
-  display: none; /* Oculta la barra de desplazamiento en WebKit */
+#carousel::-webkit-scrollbar {
+  height: 0;
 }
 
-/* Content Styles */
-.Content {
-  display: flex; /* Muestra las tarjetas en una fila */
-  gap: 16px; /* Espacio entre las tarjetas */
-}
-
-.Content .item {
-  min-width: 180px; /* Ancho mínimo de las tarjetas */
-  background: green;
-}
-
-/* Button Styles */
-.Button {
-  background: #fff;
-  color: #1d1d1d;
-  font-size: 20px;
+#prev,
+#next {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: white;
   border: none;
   padding: 8px;
   border-radius: 50%;
   outline: 0;
   cursor: pointer;
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
 }
 
-/* Ajusta la posición de las flechas según sea necesario */
-.prev {
+#prev {
   top: 50%;
   left: 0;
-  transform: translate(-130%, -50%);
+  transform: translate(50%, -50%);
   display: none;
 }
 
-.next {
+#next {
   top: 50%;
   right: 0;
-  transform: translate(90%, -50%);;
+  transform: translate(-50%, -50%);
+}
+
+#content {
+  display: grid;
+  grid-gap: 16px;
+  grid-auto-flow: column;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.item {
+  width: 180px;
+  height: 180px;
+  background: green;
 }

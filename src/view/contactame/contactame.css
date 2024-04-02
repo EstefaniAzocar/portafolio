@@ -105,9 +105,9 @@
   @media screen and (min-width: 950px) {
     .sectionContactame{
       width: 100%;
-        padding-left: 12rem;
+        /* padding-left: 12rem; */
         flex-direction: column;
-        justify-content:space-between;
+        justify-content:center;
         min-height: 100vh;
         display: flex;
         margin: 0 auto;
