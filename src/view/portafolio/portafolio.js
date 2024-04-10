@@ -1,6 +1,6 @@
 import React from "react";
-import Proyectos from "../../components/Proyectos/proyectosCart";
-import { proyectosData } from "../../components/Proyectos/proyectosData";
+import Proyectos from "../../components/proyectos/proyectosCart";
+import { proyectosData } from "../../components/proyectos/proyectosData";
 import MyCarousel from "../../components/Slider/caurosel";
 
 import './portafolio.css';
