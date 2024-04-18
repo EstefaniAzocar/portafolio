@@ -1,9 +1,8 @@
 import React from "react";
 import Proyectos from "../../components/proyectos/proyectosCart";
 import { proyectosData } from "../../components/proyectos/proyectosData";
-import MyCarousel from "../../components/slider/caurosel";
-
 import './portafolio.css';
+import Carousel from "../../components/carousel/carousel"; // Cambiar la importación del componente Carousel
 
 const Portafolio = () => {
   return (
@@ -12,7 +11,7 @@ const Portafolio = () => {
         <h1 className="title">Proyectos</h1>
 
         <div className="textoPortafolio">
-          <MyCarousel>
+          <Carousel>
             {proyectosData.map((proyecto) => (
               <div key={proyecto.id}>
                 <Proyectos
@@ -24,7 +23,7 @@ const Portafolio = () => {
                 />
               </div>
             ))}
-          </MyCarousel>
+          </Carousel>
         </div>
       </div>
     </>

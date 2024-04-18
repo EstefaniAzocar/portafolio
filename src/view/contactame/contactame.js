@@ -7,7 +7,7 @@ const Contactame = () => {
       <div id="sectionContactame" className="sectionContactame">
         <h1 className="titleContactame">Contactame</h1>
         <section className="contactame" id="contactame">
-          <p className="textContactame" >Actualmente estoy en busca de una oportunidad 
+          <p className="textContactame" >  Actualmente estoy en busca de una oportunidad 
           <br></br> Te invito a enviar un mensaje para ponernos en contacto. </p>
           
           <a href="mailto:estefanyazocar3@gmail.com" className="btnContactame">
@@ -19,7 +19,7 @@ const Contactame = () => {
           </a>
 
         </section>
-        <footer>Todos los derechos reservados</footer>
+        <footer>Develop by Estefani Azocar</footer>
       </div>
     </>
   );

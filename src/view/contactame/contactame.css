@@ -1,11 +1,11 @@
 .sectionContactame{
-  display: flex;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  padding-left: 10.2rem;
-  margin-top: 70px;
-  gap: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-left: 10.2rem;
+    margin-top: 70px;
+    gap: 20px;
+    height: 90vh;
 }
 
 .titleContactame {
@@ -26,10 +26,11 @@
 }
 
 .textContactame {
+  display: flex;
   justify-content: center;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin-bottom: 2rem;
-  padding-top: 15px;
+  /* padding-top: 15px; */
 }
 
 .btnContactame{
@@ -87,6 +88,14 @@
   left: 0;
   
 }
+
 .btnContactame:hover span.text{
   color: #1d1d1d;
+}
+
+footer{
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
 }
