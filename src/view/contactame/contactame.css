@@ -5,7 +5,7 @@
     padding-left: 10.2rem;
     margin-top: 70px;
     gap: 20px;
-    height: 90vh;
+    height: 89vh;
 }
 
 .titleContactame {
@@ -97,5 +97,5 @@ footer{
   color: #ffffff;
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding-top: 30px;
 }
