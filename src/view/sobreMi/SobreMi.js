@@ -31,9 +31,9 @@ const SobreMi = () =>{
             </div>
             <div className="tecnologias">
               <h1 className="titleSobreMi">Tecnologías</h1>
-              <div class="slider">
-                <div class="slide-track">
-                  <div class="slide">
+              <div className="slider">
+                <div className="slide-track">
+                  <div className="slide">
                   <div><img src={html} alt="Html" /></div>
                   <div><img src={css} alt="Css" /></div>
                   <div><img src={sass} alt="Sass" /></div>

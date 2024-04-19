@@ -55,9 +55,9 @@ const Carousel = ({children}) => {
 
   return (
     <div className="carousel-wrapper">
-      <div id="wrapper">
-        <div id="carousel" ref={carouselRef}>
-          <div id="content" ref={contentRef}>
+      <div id="wrapper" className="wrapper">
+        <div id="carousel" ref={carouselRef} className="carousel">
+          <div id="content" ref={contentRef} className="content">
             {children}
           </div>
         </div>

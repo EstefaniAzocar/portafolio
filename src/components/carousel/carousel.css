@@ -44,7 +44,7 @@
 
 /* Carousel */
 .carousel-wrapper .carousel {
-  overflow: auto;
+  overflow: hidden;
   scroll-behavior: smooth;
   scrollbar-width: none;
 }
@@ -73,13 +73,13 @@
 .carousel-wrapper .content {
   display: grid;
   grid-gap: 35px;
-  grid-auto-flow: row;
+  grid-auto-flow: column;
   margin: 0 20px;
   box-sizing: border-box;
 }
-
+/* 
 .carousel-wrapper .content .item {
   width: 180px;
   height: 180px;
   background: green;
-}
+} */

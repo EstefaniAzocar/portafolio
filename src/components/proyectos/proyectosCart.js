@@ -7,7 +7,7 @@ const Proyectos = (props) => {
   return (
     <div className="seccion">
       <div className="containerCard">
-        <img className="imagen" src={img} alt={'img' + name} />
+        <div className="containerImg"><img className="imagen" src={img} alt={'img' + name} /></div>
         <h1 className="name">{name}</h1>
         <p>{descripcion}</p>
         {(github || demo) && (
