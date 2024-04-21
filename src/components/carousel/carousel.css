@@ -1,66 +1,32 @@
-/* Wrapper */
-.carousel-wrapper {
+.carouselWrapper{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#wrapper {
   width: 100%;
-  max-width: 280px;
+  max-width: 784px;
   position: relative;
 }
 
-.carousel-wrapper .prev {
-  top: 50%;
-  left: 0;
-  transform: translate(-20%, -50%);
-  display: none;
-}
-
-.carousel-wrapper .next {
-  top: 50%;
-  right: 0;
-  transform: translate(60%, -50%);
-}
-
-@media screen and (min-width: 568px) {
-  .carousel-wrapper {
-    max-width: 500px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .carousel-wrapper {
-    max-width: 680px;
-  }
-}
-
-@media screen and (min-width: 968px) {
-  .carousel-wrapper {
-    max-width: 850px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .carousel-wrapper {
-    max-width: 760px;
-  }
-}
-
-/* Carousel */
-.carousel-wrapper .carousel {
-  overflow: hidden;
+#carousel {
+  overflow: auto;
   scroll-behavior: smooth;
   scrollbar-width: none;
 }
 
-.carousel-wrapper .carousel::-webkit-scrollbar {
+#carousel::-webkit-scrollbar {
   height: 0;
 }
 
-/* Button */
-.carousel-wrapper .prev,
-.carousel-wrapper .next {
+.prev,
+.next {
   display: flex;
   justify-content: center;
   align-content: center;
-  background: #aeaeae;
-  color: black;
+  background: white;
   border: none;
   padding: 8px;
   border-radius: 50%;
@@ -69,17 +35,50 @@
   position: absolute;
 }
 
-/* Content */
-.carousel-wrapper .content {
+.prev {
+  top: 50%;
+  left: 0;
+  transform: translate(50%, -50%);
+  display: none;
+}
+
+.next {
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+}
+
+#content {
   display: grid;
-  grid-gap: 35px;
+  grid-gap: 16px;
   grid-auto-flow: column;
-  margin: 0 20px;
+  margin: auto;
   box-sizing: border-box;
 }
-/* 
-.carousel-wrapper .content .item {
-  width: 180px;
-  height: 180px;
-  background: green;
-} */
+
+@media screen and (min-width: 568px) {
+  #content{
+    max-width: 500px;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+  #content{
+    max-width: 680px;
+  }
+}
+
+@media screen and (min-width: 968px) {
+  #content{
+    max-width: 850px;
+  }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+  #content{
+    max-width: 960px;
+  }
+}

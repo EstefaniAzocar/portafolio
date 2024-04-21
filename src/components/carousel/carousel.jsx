@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
 import "./carousel.css"; // Importa tu archivo CSS
 
-const Carousel = ({children}) => {
+export function Carousel ({children}) {
   const gap = 16;
   const carouselRef = useRef(null);
   const contentRef = useRef(null);
@@ -54,10 +54,10 @@ const Carousel = ({children}) => {
   };
 
   return (
-    <div className="carousel-wrapper">
-      <div id="wrapper" className="wrapper">
-        <div id="carousel" ref={carouselRef} className="carousel">
-          <div id="content" ref={contentRef} className="content">
+    <div className="carouselWrapper">
+      <div id="wrapper" >
+        <div id="carousel" ref={carouselRef} >
+          <div id="content" ref={contentRef}>
             {children}
           </div>
         </div>
@@ -72,7 +72,7 @@ const Carousel = ({children}) => {
             <path d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z" />
           </svg>
         </button>
-        <button className="next" onClick={handleNextClick} ref={nextRef}>
+        <button className="next"  onClick={handleNextClick} ref={nextRef}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -83,9 +83,8 @@ const Carousel = ({children}) => {
             <path d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z" />
           </svg>
         </button>
-      </div>
     </div>
+  </div>
   )
 }
-
 export default Carousel;

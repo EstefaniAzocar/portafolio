@@ -32,7 +32,7 @@
     justify-items: center;
     justify-content: center;
     flex-direction: row;
-    z-index: -1;
+    /* z-index: -1; */
     /* margin-top: 50px;
     margin-top: 5px;
     max-height: 980px;
