@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-direction: column;
-    margin-top: 70px;
+    margin-top: 100px;
 }
 
 .titleSobreMi{
@@ -45,69 +45,49 @@ transition: all .3s ease;
     /* flex-wrap: wrap; */
     color: #ffff;
     width: 100%;
-    padding-right: 15px;
+    padding: 10px;
     font-size: 18px;
     /* margin: 15px; */
     line-height: 150%;
 }
 .slider {
-    position: relative;
+    display: flex;
+    /* position: relative; */
     width: 95%;
     height: auto;
     /* margin: auto; */
+    margin: 15px;
     overflow: hidden;
-    margin-top: 20px;
+    
+
     /* box-shadow: 2px 2px 6px #4a4a4a; */
     /* box-shadow: 1px 0px 20px 4px #4a4a4a; */
     /* background: linear-gradient(459deg, #130427 18.96%, #06162b 73.16%); */
-    background: linear-gradient(to right, #0f041e 28.96%, rgba(21, 4, 36, 0) 83.16%);
-    bottom: -12px;
+    background: linear-gradient(to right, #191919 28.96%, rgba(0, 0, 0, .85) 83.16%);
+    margin-bottom: 12px;
 }
-
-/* .slider::after,
-.slider .slide::before {
-  content: "";
-  position: absolute;
-  height: 6rem;
-  width: 100%;
-  z-index: 2;
-} */
 
 .slider::before {
     content: "";
-    position: absolute;
+    /* position: absolute; */
     right: 0%;
     width: 25px;
     height: 100%;
     background: linear-gradient(to left, #191919 28.96%, rgba(21, 4, 36, 0) 103.16%);
-    z-index: 2;
 
-  }
-  
-  .slider::after {
-    content: "";
-    position: absolute;
-    right: -12px; /* Ajusta la posición del degradado derecho */
-    width: 25px; /* Ajusta el ancho del degradado */
-    height: 100%;
-    background: linear-gradient(to right, #191919 28.96%, rgba(39, 42, 56, 0) 103.16%);
-    z-index: 2;
-
-  }
+}
 
 .slider .slide-track {
     display: flex;
     animation: scroll 30s linear infinite;
     -webkit-animation: scroll 30s linear infinite;
     width: calc(100px * 20);
-
 }
-
 
 .slider .slide {
     display: flex;
     flex-direction: row;
-    width: 100%;
+    width: 90%;
 }
 .slider .slide div {
     width: 100%;
@@ -116,15 +96,21 @@ transition: all .3s ease;
     backdrop-filter: blur(40px);
     border-radius: 18px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 0.3rem;
-  }
+}
 
 .slider .slide img {
-    width: 90px;
+    width: 100px;
     height: 90px;
     padding: 20px;
+}
+
+.slider .slide p {
+    font-size: 10px;
+    align-items: center;
 }
 
 @keyframes scroll {

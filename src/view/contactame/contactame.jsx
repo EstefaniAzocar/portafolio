@@ -11,11 +11,7 @@ const Contactame = () => {
           <br></br> Te invito a enviar un mensaje para ponernos en contacto. </p>
           
           <a href="mailto:estefanyazocar3@gmail.com" className="btnContactame">
-                    <div>
-                        <span class="bg"></span>
-                        <span class="base"></span>
-                        <span class="text">Contáctame</span>
-                    </div>
+            Contáctame
           </a>
 
         </section>

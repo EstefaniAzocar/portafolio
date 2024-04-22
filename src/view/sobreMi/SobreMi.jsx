@@ -34,27 +34,27 @@ const SobreMi = () =>{
               <div className="slider">
                 <div className="slide-track">
                   <div className="slide">
-                  <div><img src={html} alt="Html" /></div>
-                  <div><img src={css} alt="Css" /></div>
-                  <div><img src={sass} alt="Sass" /></div>
-                  <div><img src={js} alt="JavaScript" /></div>
-                  <div><img src={react} alt="React" /></div>
-                  <div><img src={nodeJS} alt="Node" /></div>
-                  <div><img src={java} alt="Java" /></div>
-                  <div><img src={git} alt="Git" /></div>
-                  <div><img src={gitHub} alt="Github" /></div>
-                  <div><img src={visualStudeCode} alt="Visual code" /></div>
+                  <div><img src={html} alt="Html" /> <p>Html</p></div>
+                  <div><img src={css} alt="Css" /> <p>Css</p></div>
+                  <div><img src={sass} alt="Sass" /> <p>Sass</p></div>
+                  <div><img src={js} alt="JavaScript" /> <p>JavaScript</p></div>
+                  <div><img src={react} alt="React" /> <p>React</p></div>
+                  <div><img src={nodeJS} alt="Node" /> <p>Node</p></div>
+                  <div><img src={java} alt="Java" /> <p>Java</p></div>
+                  <div><img src={git} alt="Git" /> <p>Git</p></div>
+                  <div><img src={gitHub} alt="Github" /> <p>Github</p></div>
+                  <div><img src={visualStudeCode} alt="Visual code" /> <p>Visual Stude Code</p></div>
 
-                  <div><img src={html} alt="Html" /></div>
-                  <div><img src={css} alt="css" /></div>
-                  <div><img src={sass} alt="Sass" /></div>
-                  <div><img src={js} alt="JavaScript" /></div>
-                  <div><img src={react} alt="React" /></div>
-                  <div><img src={nodeJS} alt="Node" /></div>
-                  <div><img src={java} alt="Java" /></div>
-                  <div><img src={git} alt="Git" /></div>
-                  <div><img src={gitHub} alt="Github" /></div>
-                  <div><img src={visualStudeCode} alt="Visual code" /></div>
+                  <div><img src={html} alt="Html" /> <p>Html</p></div>
+                  <div><img src={css} alt="css" /> <p>Css</p></div>
+                  <div><img src={sass} alt="Sass" /> <p>Sass</p></div>
+                  <div><img src={js} alt="JavaScript" /> <p>JavaScript</p></div>
+                  <div><img src={react} alt="React" /> <p>React</p></div>
+                  <div><img src={nodeJS} alt="Node" /> <p>Node</p></div>
+                  <div><img src={java} alt="Java" /> <p>Java</p></div>
+                  <div><img src={git} alt="Git" /> <p>Git</p></div>
+                  <div><img src={gitHub} alt="Github" /> <p>Github</p></div>
+                  <div><img src={visualStudeCode} alt="Visual code" /> <p>Visual Stude Code</p></div>
                 </div>
             
         </div>

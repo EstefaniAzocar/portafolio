@@ -16,12 +16,12 @@ const Home = () =>{
                 <p className="textoGray">Front End Developer</p>
                 <br/>
            
-            <a href="https://drive.google.com/file/d/1rQ_DSVHpUVXS3ukhXKfQ603UBfnSDBt2/view?usp=sharing" target="_blank"  className="contact-button">
-                    <div>
-                        <span class="bg"></span>
-                        <span class="base"></span>
-                        <span class="text">Descargar CV</span>
-                    </div>
+            <a href="https://drive.google.com/file/d/1rQ_DSVHpUVXS3ukhXKfQ603UBfnSDBt2/view?usp=sharing" target="_blank" rel="noreferrer"  className="contact-button .slide_right">
+                    {/* <div>
+                        <span className="bg"></span>
+                        <span className="base"></span>
+                        <span className="text">Descargar CV</span>
+                    </div> */} Descargar CV
                 </a>
             </div>
         </div>

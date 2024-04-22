@@ -1,21 +1,21 @@
 .carouselWrapper{
   width: 90%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: -1;
+  /* z-index: -2; */
+
 }
 
 #wrapper {
   width: 100%;
   max-width: 784px;
   position: relative;
+  /* z-index: -1; */
 }
 
 #carousel {
   overflow: auto;
   scroll-behavior: smooth;
   scrollbar-width: none;
+ 
 }
 
 #carousel::-webkit-scrollbar {
@@ -34,6 +34,7 @@
   outline: 0;
   cursor: pointer;
   position: absolute;
+  z-index: 1;
 }
 
 .prev {
@@ -50,16 +51,20 @@
 }
 
 #content {
-  display: grid;
+  display: flex;
+  gap: 16px;
+  
+  /* display: grid;
   grid-gap: 16px;
   grid-auto-flow: column;
   margin: auto;
-  box-sizing: border-box;
+  box-sizing: border-box; */
 }
 
 @media screen and (min-width: 568px) {
   #content{
     max-width: 360px;
+   
   }
 
 }
@@ -74,6 +79,7 @@
   #content{
     max-width: 850px;
   }
+
 
 }
 

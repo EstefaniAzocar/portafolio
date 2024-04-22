@@ -13,6 +13,8 @@
     align-items: center;
     justify-content:space-around;
     text-align: center;
+   
+   
  
 }
 
@@ -48,7 +50,7 @@
 }
 
 .imagen{
-    width: 100%;
+    width: 100%; 
     /* height: 100%;
     background-position: center; */
 
@@ -56,9 +58,9 @@
     background-size: cover;
     height: auto;
     width: 100%;
-    /* margin-top: 7px; */
-    /* border-radius: 12px;
-    border: 1px solid rgba(255,255,255, 0.255) */ 
+
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255, 0.255)  */
 
 }
 .name{

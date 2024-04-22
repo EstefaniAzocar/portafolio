@@ -12,8 +12,8 @@ const Header = () => {
         <div className="header" >
                 <div className={`btns-container ${isOpen && "open"}`} onClick={ () => setIsOpen(!isOpen)}>
                 {
-                    isOpen ?  <span className=" nav-btn fas nav-close-btnfas fa-solid fa-xmark"></span> : 
-                    <span className=" nav-btn fas fa-solid fa-bars" ></span>
+                    isOpen ?  <span className=" fas nav-close-btnfas fa-solid fa-xmark"></span> : 
+                    <span className=" fas fa-solid fa-bars" ></span>
                 }
                     {/* <span className=" nav-btn fas fa-solid fa-bars" ></span> */}
                     {/* <span className=" nav-btn nav-close-btnfas fa-solid fa-xmark"></span> */}
