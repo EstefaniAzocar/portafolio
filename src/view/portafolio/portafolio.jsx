@@ -8,7 +8,7 @@ const Portafolio = () => {
   return (
     <>
       <div id="portafolio" className="sectionPortafolio">
-        <h1 className="title">Proyectos</h1>
+        <h1 className="titulo">Proyectos</h1>
 
         <div className="textoPortafolio">
           <Carousel>
