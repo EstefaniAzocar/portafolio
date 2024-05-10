@@ -63,7 +63,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
+    margin-top: 70px;
     overflow: hidden;
     border-radius: 20px;
     z-index: -1;
@@ -110,7 +110,7 @@
     height: 220px;
     min-width: 100px;
     z-index: 1;
-    padding-top: 10px;
+    /* padding-top: 10px; */
     background-color: #1d1d1d;
     opacity: 1;
 

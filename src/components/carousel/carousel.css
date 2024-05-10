@@ -1,12 +1,14 @@
 .carouselWrapper{
-  width: 90%;
+  display: flex;
+  justify-content: center;
+  width: 95%;
   /* z-index: -2; */
 
 }
 
 #wrapper {
   width: 100%;
-  max-width: 784px;
+  max-width: 764px;
   position: relative;
   /* z-index: -1; */
 }
@@ -27,7 +29,7 @@
   display: flex;
   justify-content: center;
   align-content: center;
-  background: white;
+  background: rgb(3 195 236);
   border: none;
   padding: 8px;
   border-radius: 50%;
@@ -40,19 +42,19 @@
 .prev {
   top: 50%;
   left: 0;
-  transform: translate(50%, -50%);
+  transform: translate(-30%, -50%);
   display: none;
 }
 
 .next {
   top: 50%;
   right: 0;
-  transform: translate(-50%, -50%);
+  transform: translate(20%, -50%);
 }
 
 #content {
   display: flex;
-  gap: 16px;
+  gap: 20px;
   
   /* display: grid;
   grid-gap: 16px;

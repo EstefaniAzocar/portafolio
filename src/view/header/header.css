@@ -7,10 +7,17 @@
     justify-content: space-between;
     width: 100%;
     height: 10vh;
-    /* background-color: #191919; */
-    z-index: 5;
-    /* background-color: #191919; */
-    
+    z-index: 5; 
+}
+
+.containerHeader{
+    width: 100%;
+    margin: 0 3px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    backdrop-filter: blur(5px);
+    background-color: transparent;
 }
 
 .modo{
@@ -68,7 +75,11 @@
         justify-content: flex-end;
         align-items: flex-end;
         
+        
        /* background-color: #08fdd8; */
+    }
+    .containerHeader{
+        backdrop-filter: none;
     }
     .btns-container{
         display: none;

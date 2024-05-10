@@ -10,6 +10,7 @@ const Header = () => {
     return (
         <>
         <div className="header" >
+            <div className="containerHeader">
                 <div className={`btns-container ${isOpen && "open"}`} onClick={ () => setIsOpen(!isOpen)}>
                 {
                     isOpen ?  <span className=" fas nav-close-btnfas fa-solid fa-xmark"></span> : 
@@ -22,7 +23,7 @@ const Header = () => {
                     <span className="noche fa-solid fa-sun"></span>
                     <span className="dia fa-solid fa-moon"></span>
                 </div>
-            
+            </div>
         </div>
 
         <div className={`container ${isOpen && "open"}`}>

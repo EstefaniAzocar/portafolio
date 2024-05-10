@@ -24,7 +24,7 @@ const SobreMi = () =>{
               <p>¡Hola! Soy Estefani Azocar, Desarrolladora con una travesía que me llevó desde Venezuela hasta Colombia, 
               enfrentando desafíos con resiliencia. Ingeniera en Informática, me destaco en el desarrollo Frontend con habilidades
               en JavaScript, React JS, y tecnologías del lado del cliente. He completado con éxito un curso de Frontend Developer, 
-              abordando tecnologías esenciales como HTML, CSS, Sass, JavaScript, React, Node.js, Express y Firebase. Recientemente,
+              abordando tecnologías esenciales como HTML, CSS, Sass, JavaScript, React, Node, Next, Express y Firebase. Recientemente,
               amplié mis habilidades hacia el Backend, centrándome en Java, ofreciendo una perspectiva integral del desarrollo de software.
               </p>
 

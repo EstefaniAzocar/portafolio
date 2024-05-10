@@ -1,5 +1,6 @@
 .seccion{
-    width: 180px;
+    width: 240px;
+    height: 320px;
     backdrop-filter: blur(16px) saturate(180%);
     -webkit-backdrop-filter: blur(16px) saturate(180%);
     /* background-color: rgba(17, 25, 40, 0.25); */
@@ -33,7 +34,7 @@
 
 .containerCard{
     width: 100%;
-    height: 240px;
+    height: 310px;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -41,7 +42,7 @@
 }
 
 .containerImg{
-    height: 120px;
+    height: 160px;
     width: 100%;
     overflow: hidden;
     /* margin-top: 7px; */
@@ -51,16 +52,8 @@
 
 .imagen{
     width: 100%; 
-    /* height: 100%;
-    background-position: center; */
-
-    /* background-position: center;
-    background-size: cover;
-    height: auto;
-    width: 100%;
-
-    border-radius: 12px;
-    border: 1px solid rgba(255,255,255, 0.255)  */
+    height: 100%;
+    background-position: center;
 
 }
 .name{
@@ -68,7 +61,7 @@
     color: rgba(255,255,255,0.98);
     text-transform: uppercase;
     font-size: 1rem;
-    margin: 5px;
+    margin: 5px 0;
 }
 
 p{
@@ -78,7 +71,7 @@ p{
     display: flex;
     /* justify-content: center; */
     /* align-items: center; */
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     line-height: 100%;
     margin: 3px;
     letter-spacing: 2px;
@@ -96,8 +89,8 @@ p{
     border: none;
     padding: 10px 12px;
     border-radius: 24px;
-    font-size: 0.6rem;
-    letter-spacing: 1px;
+    font-size: 0.9rem;
+    letter-spacing: 3px;
     cursor: pointer;
     margin-bottom: 7px;
   
