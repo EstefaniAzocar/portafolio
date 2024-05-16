@@ -35,27 +35,66 @@ const SobreMi = () =>{
                 <div className="slide-track">
                   <div className="slide">
                   <div><img src={html} alt="Html" /> <p>Html</p></div>
+                  </div>
+                  <div className="slide">
                   <div><img src={css} alt="Css" /> <p>Css</p></div>
+                  </div>
+                  <div className="slide">
                   <div><img src={sass} alt="Sass" /> <p>Sass</p></div>
+                  </div>
+                  <div className="slide">
                   <div><img src={js} alt="JavaScript" /> <p>JavaScript</p></div>
+                  </div>
+                  <div className="slide">
                   <div><img src={react} alt="React" /> <p>React</p></div>
+                  </div>
+                  <div className="slide">
                   <div><img src={nodeJS} alt="Node" /> <p>Node</p></div>
+                  </div>
+                  <div className="slide">
                   <div><img src={java} alt="Java" /> <p>Java</p></div>
+                  </div>
+                  <div className="slide">
                   <div><img src={git} alt="Git" /> <p>Git</p></div>
+                  </div>
+                  <div className="slide">
                   <div><img src={gitHub} alt="Github" /> <p>Github</p></div>
+                  </div>
+                  <div className="slide">
                   <div><img src={visualStudeCode} alt="Visual code" /> <p>Visual Stude Code</p></div>
+                  </div>
+    
 
+                  <div className="slide">
                   <div><img src={html} alt="Html" /> <p>Html</p></div>
-                  <div><img src={css} alt="css" /> <p>Css</p></div>
+                  </div>
+                  <div className="slide">
+                  <div><img src={css} alt="Css" /> <p>Css</p></div>
+                  </div>
+                  <div className="slide">
                   <div><img src={sass} alt="Sass" /> <p>Sass</p></div>
+                  </div>
+                  <div className="slide">
                   <div><img src={js} alt="JavaScript" /> <p>JavaScript</p></div>
+                  </div>
+                  <div className="slide">
                   <div><img src={react} alt="React" /> <p>React</p></div>
+                  </div>
+                  <div className="slide">
                   <div><img src={nodeJS} alt="Node" /> <p>Node</p></div>
+                  </div>
+                  <div className="slide">
                   <div><img src={java} alt="Java" /> <p>Java</p></div>
+                  </div>
+                  <div className="slide">
                   <div><img src={git} alt="Git" /> <p>Git</p></div>
+                  </div>
+                  <div className="slide">
                   <div><img src={gitHub} alt="Github" /> <p>Github</p></div>
+                  </div>
+                  <div className="slide">
                   <div><img src={visualStudeCode} alt="Visual code" /> <p>Visual Stude Code</p></div>
-                </div>
+                  </div>
             
         </div>
     </div>

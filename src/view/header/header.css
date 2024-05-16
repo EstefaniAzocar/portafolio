@@ -12,7 +12,7 @@
 
 .containerHeader{
     width: 100%;
-    margin: 0 3px;
+    margin: 0 5px;
     display: flex;
     justify-content: space-between;
     flex-direction: row-reverse;
@@ -20,13 +20,21 @@
     background-color: transparent;
 }
 
+.btns-container{
+    justify-content: center;
+    align-items: center;
+    padding-top: 6px;
+    font-size: 2rem;
+} 
+
 .modo{
     padding: 20px;
     border-radius: 5px;
     display: flex;
+    justify-content: center;
     align-items: center;
     color: #fff;
-    font-size: 1.7rem;
+    font-size: 2rem;
 }
 
 .modo .noche{
@@ -81,6 +89,7 @@
     .containerHeader{
         backdrop-filter: none;
     }
+
     .btns-container{
         display: none;
     }
@@ -96,5 +105,11 @@
         z-index: 6;
 
     
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .containerHeader{
+        backdrop-filter: none;
     }
 }
