@@ -14,9 +14,6 @@
     align-items: center;
     justify-content:space-around;
     text-align: center;
-   
-   
- 
 }
 
 ::-webkit-scrollbar {
@@ -128,5 +125,27 @@ p{
     transition: all .3s ease;  
 }
 
+@media screen and (min-width: 768px){
+    .seccion{
+        width: 230px;
+    }
+}
 
+@media screen and (min-width: 950px){
+    .seccion{
+        width: 240px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .seccion{
+        width: 240px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .seccion{
+        width: 260px;
+    }
+}
   

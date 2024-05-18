@@ -6,9 +6,9 @@ const Contactame = () => {
     <>
       <div id="sectionContactame" className="sectionContactame">
         <h1 className="titleContactame">Contactame</h1>
-        <section className="contactame" id="contactame">
-          <p className="textContactame" >  Actualmente estoy en busca de una oportunidad 
-          <br></br> Te invito a enviar un mensaje para ponernos en contacto. </p>
+        <section className="contactame">
+        <h5 className="textContactame"> Actualmente estoy en busca de oportunidad laboral </h5>
+          <p>Te invito a enviar un mensaje para ponernos en contacto. </p>
           
           <a href="mailto:estefanyazocar3@gmail.com" className="btnContactame">
             Contáctame

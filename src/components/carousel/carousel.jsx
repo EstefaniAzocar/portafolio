@@ -31,7 +31,7 @@ export function Carousel ({children}) {
     return () => {
       document.removeEventListener('keydown', handleKeyDown);
     };
-  }, []); // La dependencia vacía [] asegura que este efecto se ejecute solo una vez
+  }, ); // La dependencia vacía [] asegura que este efecto se ejecute solo una vez
 
   const handleNextClick = () => {
     carouselRef.current.scrollBy({ left: width + gap, behavior: 'smooth' });
