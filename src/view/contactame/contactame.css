@@ -4,7 +4,7 @@
   flex-direction: column;
   width: 100%;
   min-height: 90vh;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .title{
@@ -113,5 +113,21 @@ footer{
   }
   footer{
     font-size: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1440px){
+  .sectionContactame{
+    padding-left: 11rem;
+  }
+  .textContactame{
+    justify-content: center;
+    font-size: 2.5rem;
+  }
+  .texto{
+    font-size: 1.8rem;
+  }
+  footer{
+    margin: 0%;
   }
 }
