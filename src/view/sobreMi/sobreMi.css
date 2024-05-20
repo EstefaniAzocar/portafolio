@@ -21,11 +21,6 @@ padding: 15px;
 color: rgba(0, 212, 255, 0.9);
 
 }
-/* .titleSobreMi:hover{
-transform: scale(1.005);
-color: rgba(255, 255, 255, 0.9);
-transition: all .3s ease;  
-} */
 
 .descripcion{
     width: 100%;
@@ -56,12 +51,6 @@ transition: all .3s ease;
     height: auto;
     margin: auto;
     overflow: hidden;
-    
-
-    /* box-shadow: 2px 2px 6px #4a4a4a; */
-    /* box-shadow: 1px 0px 20px 4px #4a4a4a; */
-    /* background: linear-gradient(459deg, #130427 18.96%, #06162b 73.16%); */
-    /* background: linear-gradient(to right, #191919 28.96%, rgba(0, 0, 0, .85) 83.16%); */
     background-color: #191919;
     margin-bottom: 12px;
 }

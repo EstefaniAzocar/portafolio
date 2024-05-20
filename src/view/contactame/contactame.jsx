@@ -5,14 +5,14 @@ const Contactame = () => {
   return (
     <>
       <div id="sectionContactame" className="sectionContactame">
-        <h1 className="titleContactame">Contactame</h1>
+        <div className='title'><h1 className="titleContactame">Contactame</h1></div>
         <section className="contactame">
         <h5 className="textContactame"> Actualmente estoy en busca de oportunidad laboral </h5>
-          <p>Te invito a enviar un mensaje para ponernos en contacto. </p>
+          <p className='texto'>Te invito a enviar un mensaje para ponernos en contacto. </p>
           
-          <a href="mailto:estefanyazocar3@gmail.com" className="btnContactame">
+          <div className='boton'><a href="mailto:estefanyazocar3@gmail.com" className="btnContactame">
             Contáctame
-          </a>
+          </a></div>
 
         </section>
         <footer>Develop by Estefani Azocar</footer>
