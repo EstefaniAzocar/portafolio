@@ -5,7 +5,7 @@ const Contactame = () => {
   return (
     <>
       <div id="sectionContactame" className="sectionContactame">
-        <div className='title'><h1 className="titleContactame">Contactame</h1></div>
+        <div className='titleContainer'><h1 className="titleContactame">Contactame</h1></div>
         <section className="contactame">
         <h5 className="textContactame"> Actualmente estoy en busca de oportunidad laboral </h5>
           <p className='texto'>Te invito a enviar un mensaje para ponernos en contacto. </p>

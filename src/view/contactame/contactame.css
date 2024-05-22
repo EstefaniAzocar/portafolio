@@ -1,13 +1,13 @@
 .sectionContactame{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: column;
   width: 100%;
-  min-height: 90vh;
+  min-height: 100vh;
   margin-top: 80px;
 }
 
-.title{
+.titleContainer{
   justify-content: center;
   margin-bottom: 100px;
   margin: 0;
@@ -36,10 +36,11 @@
 
 .contactame{
   display: flex;
-  height: 30%;
+  height: 40%;
   justify-content: center;
   flex-direction: column;
   gap: 50px;
+ 
 }
 
 .texto{
@@ -88,9 +89,12 @@ footer{
   display: flex;
   color: white;
   font-size: 1.3rem;
+  padding-top: 20px;
   justify-content:center;
+  align-items: center;
   margin: 0;
-  height: 60px;
+  height: 10%;
+  
 }
 
 @media screen and (min-width: 950px) {
@@ -98,12 +102,12 @@ footer{
     padding-left: 9.5rem;
     align-items: center;
   }
-  .title{
-    justify-content: center;
+  .titleContainer{
+    justify-content: left;
     align-items: center;
-    width: 80%;
+    width: 90%;
   }
-  .textContactame{
+  .titleContactame{
     justify-content: left;
     font-size: 2rem;
     padding: 0;
