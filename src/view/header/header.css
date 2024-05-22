@@ -38,6 +38,7 @@
 }
 
 .modo .noche{
+    display: none;
         color: #fff;
 }
 .modo .dia{
