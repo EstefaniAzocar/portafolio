@@ -4,7 +4,7 @@
   flex-direction: column;
   width: 100%;
   min-height: 100vh;
-  margin-top: 80px;
+  margin-top: 70px;
 }
 
 .titleContainer{
@@ -39,7 +39,7 @@
   height: 40%;
   justify-content: center;
   flex-direction: column;
-  gap: 50px;
+  gap: 40px;
  
 }
 
@@ -89,11 +89,10 @@ footer{
   display: flex;
   color: white;
   font-size: 1.3rem;
-  padding-top: 20px;
   justify-content:center;
   align-items: center;
   margin: 0;
-  height: 10%;
+  height: 9%;
   
 }
 
@@ -115,11 +114,13 @@ footer{
   .contactame{
     width: 80%;
   }
+  
   .btnContactame{
     font-size: 20px;
   }
   footer{
     font-size: 1.5rem;
+    margin: 0;
   }
 }
 
@@ -129,7 +130,7 @@ footer{
   }
   .textContactame{
     justify-content: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
   .texto{
     font-size: 1.8rem;

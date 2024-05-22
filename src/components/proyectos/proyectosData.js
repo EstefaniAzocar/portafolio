@@ -1,5 +1,4 @@
 export const proyectosData = [
-    
     {
         id: 1,
         img: "https://i.ibb.co/ZH6gRGq/anime.jpg",
