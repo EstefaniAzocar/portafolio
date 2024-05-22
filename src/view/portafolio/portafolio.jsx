@@ -8,9 +8,7 @@ const Portafolio = () => {
   return (
     <>
       <div id="portafolio" className="sectionPortafolio">
-        <div className="title">
-        <h1 className="titleProyectos">Proyectos</h1>
-        </div>
+        <div className="title"> <h1 className="titleProyectos">Proyectos</h1> </div>
         <div className="textoPortafolio">
           <Carousel>
             {proyectosData.map((proyecto) => (
