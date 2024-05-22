@@ -79,12 +79,12 @@ p{
     margin-top: 15px;
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 25px;
 }
 
 .btn {
     border: none;
-    padding: 10px 12px;
+    padding: 8px 12px;
     border-radius: 24px;
     font-size: 0.9rem;
     letter-spacing: 3px;
