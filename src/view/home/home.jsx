@@ -16,7 +16,7 @@ const Home = () =>{
                 <p className="textoGray">Front End Developer</p>
                 <br/>
            
-            <a href="https://drive.google.com/file/d/1rQ_DSVHpUVXS3ukhXKfQ603UBfnSDBt2/view?usp=sharing" target="_blank" rel="noreferrer"  className="contact-button .slide_right">
+            <a href="https://drive.google.com/file/d/1rDlxluDxI2nNsH7LsZVvuvqOeN0-QQZr/view?usp=sharing" target="_blank" rel="noreferrer"  className="contact-button .slide_right">
                     {/* <div>
                         <span className="bg"></span>
                         <span className="base"></span>
