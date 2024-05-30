@@ -105,13 +105,13 @@ color: rgba(0, 212, 255, 0.9);
 }
 
 .slider .slide img {
-    width: 100px;
-    height: 80px;
-    
-    padding: 20px;
+    width: 60px;
+    height: 50px;
+   
 }
 
 .slider .slide p {
+    padding-top: 10px;
     font-size: 11px;
     align-items: center;
 }

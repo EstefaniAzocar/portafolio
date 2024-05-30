@@ -3,7 +3,7 @@ import './contactame.css'; // Importa los estilos CSS
 
 const Contactame = () => {
   return (
-    <>
+    <div className='sectionContainer'>
       <div id="sectionContactame" className="sectionContactame">
         <div className='titleContainer'><h1 className="titleContactame">Contactame</h1></div>
         <section className="contactame">
@@ -15,9 +15,10 @@ const Contactame = () => {
           </a></div>
 
         </section>
-        <footer>Develop by Estefani Azocar</footer>
+        
       </div>
-    </>
+      <footer>Develop by Estefani Azocar</footer>
+    </div>
   );
 }
 
