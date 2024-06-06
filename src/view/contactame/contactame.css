@@ -4,13 +4,15 @@
   flex-direction: column;
   width: 100%;
   min-height: 100vh;
-}
+  /* gap: 70px; */
+} 
 
 .sectionContactame{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
+  min-height: 80vh;
   gap: 70px;
 
 }
@@ -100,7 +102,8 @@ footer{
   justify-content:center;
   align-items: center;
   margin: 0;
-  height: 9%;
+  padding-top: 30px;
+
   
 }
 
@@ -108,7 +111,7 @@ footer{
   .sectionContactame {
       display: flex;
       justify-content: center;
-      min-height: 90vh;
+      min-height: 80vh;
       margin: 0;
   }
 }
